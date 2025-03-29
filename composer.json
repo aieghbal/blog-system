@@ -1,0 +1,29 @@
+{
+    "name": "aieghbal/blog-system",
+    "description": "blog system for laravel",
+        "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aieghbal",
+            "email": "aieghbal.me@gmail.com"
+        }
+    ],
+    "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^11.0",
+    "spatie/laravel-medialibrary": "^11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"aieghbal\\blog-system\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"aieghbal\\blog-system\\BlogSystemServiceProvider"
+			]
+		}
+	}
+}
